@@ -5,4 +5,6 @@ $txt = "Hello world!";
 $headers = "From: azanespaul@gmail.com";
 
 mail($to,$subject,$txt,$headers);
+
+console.log("This is working");
 ?>
