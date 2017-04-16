@@ -8,7 +8,7 @@ body {
 
 }
 
-div.nav-menu header {
+header {
 	position: fixed;
 	top: 0px;
 	font-family: Arial;
