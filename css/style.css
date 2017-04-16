@@ -18,23 +18,29 @@ header {
 	box-shadow: 0 1px 2px -2px gray;
 }
 
-nav ul {
+div.nav-menu ul {
 	float: left;
 }
 
-nav ul li {
+div.nav-menu ul li {
 	text-align: center;
 	list-style: none;
 	float: left;
-	height: 60px;
 	width: 120px;
+	height: 60px;
 }
 
-nav ul li a {
+div.nav-menu ul li a {
 	text-decoration: none;
 	color: #272727;
 	font-weight: bold;
 	font-size: 80%;
+	display: inline-block;
+	width: 120px;
+	height: 60px;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 20px;
 }
 
 div	{
@@ -64,31 +70,11 @@ div h1 {
     transition: background-color 130ms linear;
 }
 
-.home {
-	cursor: pointer;
-}
-
-.hometxt {
-	position: absolute;
-	left: 3%;
-	top: 35%;
-}
-
 .home:hover {
 	background-color: #f2f6ff;
 	-webkit-transition: background-color 130ms linear;
     -ms-transition: background-color 130ms linear;
     transition: background-color 130ms linear;
-}
-
-.features {
-	cursor: pointer;
-}
-
-.featurestxt {
-	position: absolute;
-	left: 11.2%;
-	top: 35%;
 }
 
 .features:hover {
@@ -98,31 +84,11 @@ div h1 {
     transition: background-color 130ms linear;
 }
 
-.pricing {
-	cursor: pointer;
-}
-
-.pricingtxt {
-	position: absolute;
-	left: 20.2%;
-	top: 35%;
-}
-
 .pricing:hover {
 	background-color: #f2f6ff;
 	-webkit-transition: background-color 130ms linear;
     -ms-transition: background-color 130ms linear;
     transition: background-color 130ms linear;
-}
-
-.support {
-	cursor: pointer;
-}
-
-.supporttxt {
-	position: absolute;
-	left: 28.9%;
-	top: 35%;
 }
 
 .support:hover {
@@ -132,19 +98,22 @@ div h1 {
     transition: background-color 130ms linear;
 }
 
-.blog {
-	cursor: pointer;
-}
-
-.blogtxt {
-	position: absolute;
-	left: 38.3%;
-	top: 35%;
-}
-
 .blog:hover {
 	background-color: #f2f6ff;
 	-webkit-transition: background-color 130ms linear;
     -ms-transition: background-color 130ms linear;
     transition: background-color 130ms linear;
 }
+
+/*@media screen and (max-width: 480px) {
+
+	div.nav-menu ul li{
+		float: none;
+		border-bottom: 2px solid #f2f6ff;
+	}
+
+	div.nav-menu ul li:last-child {
+		border-bottom: none;
+	}
+}
+*/
